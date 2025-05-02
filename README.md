@@ -33,8 +33,8 @@ Este projeto realiza a automação completa de um pipeline de dados: desde a ext
 
 ```mermaid
 graph TD;
-    A[Extração com Selenium] --> B[Download .xlsx];
+    A[Extração com Selenium] --> B[Download XLSX];
     B --> C[Processamento com Pandas];
     C --> D[Inserção no PostgreSQL];
     D --> E[Envio de alerta via Telegram];
-    D --> F[Painel BI (Power BI / Looker Studio)];
+    D --> F[Painel BI: Power BI / Looker Studio];
